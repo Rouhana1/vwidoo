@@ -2966,6 +2966,7 @@ figcaption {
   }
 
   .text-size-large {
+    max-width: 600px;
     font-size: 2.75rem;
   }
 
@@ -3066,6 +3067,7 @@ figcaption {
   }
 
   .hero_heading {
+    max-width: 600px;
     font-size: 3.25rem;
   }
 
@@ -3299,6 +3301,7 @@ figcaption {
   }
 
   .text-size-large {
+    max-width: 500px;
     font-size: 2.25rem;
   }
 
@@ -3472,9 +3475,11 @@ figcaption {
 
   .section-spacer {
     height: 14rem;
+    margin-top: -3.5rem;
   }
 
   .hero_heading {
+    max-width: 500px;
     font-size: 2.5rem;
   }
 
@@ -3670,6 +3675,24 @@ figcaption {
     font-size: 2.5rem;
   }
 
+  .text-size-medium {
+    max-width: 250px;
+  }
+
+  .button.is-alternate {
+    position: relative;
+    left: -458px;
+  }
+
+  .text-size-large {
+    max-width: 300px;
+    font-size: 2rem;
+  }
+
+  .text-size-large.text-color-alternate {
+    max-width: 300px;
+  }
+
   .logo_list {
     justify-content: center;
   }
@@ -3702,11 +3725,21 @@ figcaption {
     height: 40vh;
   }
 
+  .section_testimonials {
+    margin-top: 62px;
+    margin-bottom: 78px;
+  }
+
+  .section-spacer {
+    margin-top: -2.7rem;
+  }
+
   .hero_social-links {
     display: none;
   }
 
   .hero_heading {
+    max-width: 200px;
     font-size: 1.75rem;
   }
 
@@ -3718,8 +3751,33 @@ figcaption {
     font-size: 1rem;
   }
 
+  .card_index {
+    max-width: 200px;
+    margin-bottom: 29px;
+    font-size: 2rem;
+  }
+
+  .card_title {
+    max-width: 230px;
+  }
+
+  .tagline {
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    position: relative;
+    top: 18px;
+  }
+
+  .text-banner_container {
+    margin-top: 41px;
+  }
+
   .layout486_content {
     height: auto;
+  }
+
+  .testimonials_image {
+    object-fit: cover;
   }
 
   .legal_component {
@@ -3728,6 +3786,10 @@ figcaption {
 
   .column-scroll-sticky-inner {
     position: relative;
+  }
+
+  .column-scroll-image {
+    display: none;
   }
 
   .column-scroll-item {
@@ -3741,6 +3803,10 @@ figcaption {
     height: auto;
   }
 
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
   .medium-stacked-intro {
     grid-row-gap: 24px;
   }
@@ -3748,6 +3814,11 @@ figcaption {
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .list-wrapper {
+    max-width: 300px;
+    margin-top: -34px;
   }
 
   .half-wrapper {
